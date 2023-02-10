@@ -18,4 +18,9 @@ const getRandomArrayElement = (someArray) => {
   return someArray[getRandomNumber(0, someArray.length - 1)];
 };
 
+//проверка комментария
+const checkStringLength = (string, length) => {
+  return string.length <= length;
+};
+
 export {getRandomNumber, getRandomArrayElement};
